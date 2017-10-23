@@ -1,0 +1,166 @@
+#searchTerm{
+	width: 80%;
+}
+
+
+*
+{
+
+	margin:0;
+	padding: 0;
+}
+
+.row {
+
+	max-width: 1140px;
+	margin: 0 auto;
+
+}
+body
+{
+	font-family:tahoma;
+}
+
+.hero
+{
+
+	position: absolute;
+	width: 1140px;
+	top: 55%;
+	left: 98%;
+	transform: translate(-50%,-50%);
+}
+
+
+header
+{
+
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/translator.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+
+
+h1
+{
+
+	color: white;
+
+
+}
+
+
+.main-nav{
+	list-style: none;
+	float: right;
+	margin-top: 80px;
+}
+
+.main-nav li{
+
+	display: inline-block;
+	margin-left: 20px;
+
+}
+
+.main-nav li a {
+
+	color:white;
+	text-decoration: none;
+	font-size: 90%;
+	font-weight: bold;
+}
+
+.main-nav li a:hover
+{
+	color:  #e67e22;
+	border-botton: 2px solid #e67e22;
+	transition: all 0.5s ease-in;
+	padding: 10px 0;
+}
+
+
+.logo img {
+
+	height: 100px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 360px;
+}
+
+.btn
+{
+
+	border: 1px solid #e67e22;
+	padding: 10px 30px;
+	color: #e67e22;
+	text-decoration: none;
+	border-radius: 12px;
+	margin-right: 15px;
+}
+
+.btn-awesome
+{
+	
+	margin-top: 40px;
+	margin
+
+}
+
+.btn-half
+{
+		background-color: #e67e22;
+		color:white;
+}
+
+
+.btn-full:hover
+{
+	background-color: #e67e22;
+	color:white;
+	transition: all 0.5s ease-in;
+}
+
+.copy{
+
+	width:70%;
+	margin-left: 15%;
+	text-align: center;
+}
+
+
+h3:after
+{
+
+	width: 100px;
+	height: 2px;
+	background-color:#e67e22;
+	display: block;
+	content: " ";
+	margin:0 auto;
+	margin-top: 30px;
+
+}
+.feactures h3 {
+
+	margin-top: 80px;
+	margin-top: 30px;
+}
+
+.arranging
+{
+	text-align: justify;
+	border: #e67e22;
+
+}
+
+
+h5{
+
+	font-weight: bold;
+}
