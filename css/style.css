@@ -21,16 +21,25 @@ body
 	font-family:tahoma;
 }
 
+
 .hero
 {
 
-	position: absolute;
-	width: 1140px;
-	top: 55%;
-	left: 98%;
-	transform: translate(-50%,-50%);
+	position: relative;
+	width: 40%;
+	top: 25%;
+	left: 48%;
+	
+	display: block;
 }
 
+.oculto
+{
+
+	display: none;
+	margin: auto;
+	margin-bottom: -482px;
+}
 
 header
 {
@@ -150,12 +159,14 @@ h3:after
 
 	margin-top: 80px;
 	margin-top: 30px;
+	display: block;
 }
 
 .arranging
 {
 	text-align: justify;
 	border: #e67e22;
+	display: block;
 
 }
 
@@ -163,4 +174,28 @@ h3:after
 h5{
 
 	font-weight: bold;
+	display: block;
+}
+
+
+.traductor {
+
+	height: 333px;
+	width: 222px;
+
+}
+
+#transleto{
+
+	margin-bottom: -44px;
+}
+
+
+#h {
+
+	display: block;
+}
+
+p{
+	display: block;
 }

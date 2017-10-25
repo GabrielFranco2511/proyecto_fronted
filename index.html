@@ -18,14 +18,14 @@
     <![endif]-->
     <!-- Se agrego la ruta del awesome el 14 de septiembre -->
 
-
+	 <script src="js/jquery-3.2.1.min.js"></script>
       <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	
 	<header>
 		<div class="row">
-			<div class="logo">
+			<div class="logo" >
 				<img src="img/logo3.png">
 			</div>
 
@@ -38,53 +38,91 @@
 
 		</div>
 
-		<div class="hero">
+		<div class="hero" id="hero">
 			<h1> You found the right place </h1>
 			<div class="button-awesome">
-				<a href="" class="btn btn-half"> Show me more </a>
-				<a href="" class="btn btn-full"> Translate me </a>
+				<a href="" class="btn btn-half " id="btn1"> Show me more </a>
+				<a href="" class="btn btn-full " id="btn2"> Translate me </a>
 			</div>
 		</div>
 
 	</header>
 	
+
+
+	<section>
+	<div class="oculto" id="oculto">
+		<div class="col-md-6 col-md-offset-3" >
+			<div class="jumbotron traductor"> 
+				<h1 class="text-center"> Traductor </h1>
+				
+				<div class="row">
+					<input  id="input" class="form-control" type="text"> 
+					 
+					<form class="form-inline" id="translatefrom">
+						<select id="idioma1" class="form-control">
+							<option value="ru"> Russian </option>
+							<option value="es"> Spanish </option>
+							<option value="en"> English </option>
+							<option value="fr"> French </option>
+			 			</select>
+			 		</form>
+			 		<form class="form-inline" id="translateto">
+						<select id="idioma2" class="form-control">
+							<option value="ru"> Russian </option>
+							<option value="es"> Spanish </option>
+							<option value="en"> English </option>
+							<option value="fr"> French </option>
+			 			</select>
+			 		</form>
+					<button id="search" class="btn btn-primary">Submit</button>
+				</div>
+			</div>
+
+			<p id="mostrar"> </p> 
+
+		</div>
+	</div>
+</section>
+
+
 	<section class="feactures">
 		
-	<h3 class="text-center"> KNOW MORE ABOUT OUR PRODUCT </h3>
-	<p class="copy"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	<h3 class="text-center" id="1"> KNOW MORE ABOUT OUR PRODUCT </h3>
+	<p class="copy" id="11"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 		</p>
 
 	<br>
 	
-	<div class="container">
+	<div class="container" id="div1">
 		<div class="row">
 			<div class="col-md-3">
-				<h5 class="text-center"> JOIN TO OUR FAMILY </h5>
-				<p class="arranging"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<h5 class="text-center" id="h"> JOIN TO OUR FAMILY </h5>
+				<p class="arranging" id="hh"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
 	</p>
 			</div>
 
 			<div class="col-md-3">
-				<h5 class="text-center"> WE HAVE THE BEST FOR YOU </h5>
-				<p class="arranging"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<h5 class="text-center" id= "2"> WE HAVE THE BEST FOR YOU </h5>
+				<p class="arranging" id="22"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam 
 	</p>
 			</div>
 
 			<div class="col-md-3">
-				<h5 class="text-center"> AT WORK // IN VACATIONS </h5>
-				<p class="arranging"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<h5 class="text-center" id="3"> AT WORK // IN VACATIONS </h5>
+				<p class="arranging" id="33"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
 	</p>
 
 			</div>
 
 			<div class="col-md-3">
-					<h5 class="text-center"> CHANGE YOUR LIFE </h5>
-				<p class="arranging"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					<h5 class="text-center" id="4"> CHANGE YOUR LIFE </h5>
+				<p class="arranging" id="44"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
     </p>
 
@@ -96,19 +134,10 @@
 
 	</section>
 
-	<!-- <input type="text" id="input" name="text">
-	<a href="#" class="say" id="btn"> Dilo </a>
-	<audio src="" class="speech" id="dimelo"></audio>
 
 
-	<div class="container">
-	<h2> Wikipedia Search </h2>
-		<input type="text" id="searchTerm">
-		<button id="search" class="btn btn-primary">submit</button>
-	 <div id="output"> </div>
-	</div>  ---->
 
-<script type="text/javascript" src="js/scrip.js"></script>
+<script type="text/javascript" src="js/script3.js"></script>
 
 </body>
 </html>
