@@ -1,4 +1,4 @@
-img{
+a img{
     
     height: 49px;
     padding-top: 0;
@@ -81,12 +81,13 @@ h5{
 
 .traductor {
 
-	height: 532px;
-	width: 522px;
+	height: 632px;
+	width: 432px;
 	border-radius: 18px;
-/* border-top: 22px; */
+	border-top: 22px; 
 	opacity: 0.7;
-    filter: alpha(opacity=70)
+    filter: alpha(opacity=70);
+    padding-left: 0;
 }
 
 
@@ -106,7 +107,7 @@ p{
 }
 
 #search{
-	margin-left: 202px;
+	margin-left: 82px;
 	border: 1px solid;
 	padding: 10px 30px;
 	color: none;
@@ -127,32 +128,34 @@ p{
 #hache1{
 		
 	margin-top: -22px;
-	margin-left: 137px;
+	margin-left: 77px;
 
 }
 
 select {
 
 	margin-left: -82px;
+
 	
 }
 
 label{
 
 	margin-left: -82px;
+	
+
 }
 
 
 .respuesta {
 
-	height: 532px;
-	width: 522px;
+	height: 632px;
+	width: 432px;
 	border-radius: 18px;
-	border-top: 22px;
-    opacity: 0.7;
+	border-top: 22px; 
+	opacity: 0.7;
     filter: alpha(opacity=70);
-   /* margin-right: 222px; */
-   display: none;
+    display: block;
 }
 
 
@@ -169,18 +172,21 @@ label{
 #idioma1{
 
 	border-radius: 10px;
+	width: 127%;
+	margin-right: 212px;
 }
 
 #idioma2{
 
 	border-radius: 10px;
+	width: 127%;
 }
 
 
 textarea{
 
 	resize: none;
-	margin-left: 
+	width: 122%;
 }
 
 #searchTerm{
@@ -201,6 +207,7 @@ textarea{
 	margin: 0 auto;
 
 }
+
 body
 {
 	font-family:tahoma;
@@ -220,8 +227,9 @@ body
 
 	display: none;
 	margin-right: 44%;
-/* margin-bottom: -552px; */
+	margin-bottom: -552px; 
 	width: 100%;
+	margin-top: 88px;
 }
 
 header
@@ -234,7 +242,7 @@ header
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-
+	overflow: auto;
 }
 
 
@@ -256,24 +264,7 @@ h1
 } 
 
 
-.navbar-nav li{
-
-	
-	margin-left: 10px;
 
 
-}
 
 
-.navbar-right {
-
-	display: inline-flex;
-	margin-right: 111px;
-	margin: 0;
-    padding: 0;
-}
-
-nav li:hover{
-
-
-}

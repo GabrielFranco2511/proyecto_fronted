@@ -1,9 +1,81 @@
-let b = document.getElementById('btn2').addEventListener('click', (f) => {
-	f.preventDefault();
-	desaparecer();
-	aparecer();	
-	ocultar();
+let b = document.getElementById('btn2');
+let texto = document.getElementById('search');
+var expCorreo= /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/;
+var expUsuario = /^[a-z0-9ü][a-z0-9ü_]{3,8}$/;
+
+
+if (b || texto) {
+  b.addEventListener('click', (f) => {
+  f.preventDefault();
+  desaparecer();
+  aparecer(); 
+  ocultar();
 });
+
+texto.addEventListener('click', (e) => {
+  e.preventDefault();
+  traducir(); 
+});
+
+
+
+} else {
+     document.getElementById('btn').addEventListener('click', (f) => {
+      var nombre = document.getElementById('usuario').value;
+      var clave = document.getElementById('clave').value;
+      var email = document.getElementById('mail').value;
+      var texto1 = document.getElementById('textarea').value;
+
+
+    
+    if (nombre.length == 0) 
+    {
+      alert('Rellene el campo de nombre');
+    
+
+    }
+
+    else if (!expUsuario.test(nombre))
+    {
+      alert('Escribe un usuario valido');
+      
+
+    }
+
+    
+
+    if (email.length == 0)
+    {
+      alert('Rellene el campo de correo')
+    
+    }
+
+    else if (!expCorreo.test(email))
+    {
+      alert ('Escribe un correo valido');
+    
+
+    }
+
+    if (clave.length == 0)
+    {
+      alert('Rellene el campo password');
+    
+    }
+
+    if (texto1.length == 0)
+    {
+      alert('Dejanos un mensaje');
+    
+    }
+
+
+    });
+    
+
+}
+ 
+
 
 
 function desaparecer(){
@@ -70,10 +142,7 @@ function ocultar(){
 }
 
 
-let texto = document.getElementById('search').addEventListener('click', (e) => {
-	e.preventDefault();
-	traducir();	
-});
+
 
 
 	function traducir () {
@@ -98,7 +167,17 @@ let texto = document.getElementById('search').addEventListener('click', (e) => {
 	
 
 
-}
+} 
+
+
+
+
+
+
+
+
+
+
 
 
 

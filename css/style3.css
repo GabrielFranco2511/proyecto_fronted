@@ -1,0 +1,141 @@
+header
+{
+
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/pag3.jpg);
+	height: 100vh;
+	width:100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: auto;
+}
+
+
+a img {
+	height: 49px;
+    padding-top: 0;
+	margin-top: -18px;
+	margin-left:388px;
+	position: relative;
+}
+
+
+h4{
+
+	color: white;
+
+	
+}
+
+
+
+.la {
+
+	border-radius: 100%;
+}
+
+h3 {
+
+	color: white;
+	margin-top: -32px;
+	font-weight: bold;
+	font-family: Roboto-Regular;
+}
+
+
+p {
+	color: white;
+	
+}
+
+
+
+.customers {
+
+	margin-top: 79px;
+	color: white;
+}
+
+
+
+.customers p {
+
+	line-height: 22px;
+	font-weight: bold;
+	font-family: Roboto-Regular;
+
+}
+
+
+.btn-block {
+
+	
+}
+
+
+#textarea{
+
+
+	width: 494px;
+	resize: none;	
+}
+
+button {
+
+	width: 494px;
+	background-color: #e67e22;
+	color: #FFF;
+	border-radius: 4px;
+	margin-top: 22px;
+}
+
+
+.team {
+
+	text-align: center;
+	padding: 50px 0 80px;
+
+}
+
+.team b {
+
+	color: white;
+}
+
+
+.team h2 {
+
+}
+
+
+.team h4 {
+
+	margin: 20px 0 20px;
+	color: white;
+}
+
+.team p {
+
+	color: white;
+}
+
+
+.team img {
+    
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+}
+
+
+.team i {
+    
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 50%;
+    background-color: #a0db8e;
+    color: #fff;
+}
