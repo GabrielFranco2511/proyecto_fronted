@@ -14,15 +14,15 @@
 
 	width: 310px;
 	height: 220px;
-	margin-top: 39px;
+	margin-top: 49px;
 	
 }
 
 
 
-header
+#location
 {
-
+	margin-top: -79px;
 	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/pag2.jpg);
 	height: 100vh;
 	width:100%;
@@ -59,16 +59,24 @@ h4{
 
 
 
-h3 {
+#hcustomers {
 
 	color: white;
-	margin-top: 42px;
+	margin-top: 32px;
+	font-weight: bold;
+	font-family: Roboto-Regular;
+}
+
+#hcustomers2 {
+
+	color: white;
+	margin-top:82px;
 	font-weight: bold;
 	font-family: Roboto-Regular;
 }
 
 
-p {
+.plocation {
 	color: white;
 	font-family: Robot-Regular;
 }
@@ -96,3 +104,5 @@ p {
 	font-family: Roboto-Regular;
 
 }
+
+
