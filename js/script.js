@@ -115,6 +115,7 @@ function ocultar(){
    var capa33=document.getElementById("33");
    var capa4=document.getElementById("4");
    var capa44=document.getElementById("44");
+   var capa47=document.getElementById("feactures");
    
    capa.style.display="none";
    capah.style.display="none";
@@ -126,7 +127,8 @@ function ocultar(){
    capa33.style.display="none";
    capa4.style.display="none";   
    capa44.style.display="none";  
-   
+   capa47.style.display="none";
+
    capa.style.visibility="hidden";
    capah.style.visibility="hidden";
    capa1.style.display="hidden";
@@ -137,7 +139,7 @@ function ocultar(){
    capa33.style.display="hidden"; 
    capa4.style.display="hidden";   
    capa44.style.display="hidden";   
-
+   capa47.style.visibility ="hidden";  
 
 }
 
