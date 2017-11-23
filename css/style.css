@@ -325,10 +325,6 @@ h4{
 }
 
 
-.la {
-
-	margin-right: 133px;
-}
 
 
 
@@ -411,7 +407,7 @@ h4{
 
 .la {
 
-	border-radius: 100%;
+	border-radius: 0%;
 }
 
 h3 {
