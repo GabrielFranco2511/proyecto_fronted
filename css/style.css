@@ -296,9 +296,9 @@ h1
 
 #location
 {
-	margin-top: -79px;
+	margin-top: -22px;
 	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/pag2.jpg);
-	height: 100vh;
+	height: 120vh;
 	width:100%;
 	background-position: center;
 	background-size: cover;
@@ -325,6 +325,11 @@ h4{
 }
 
 
+.la {
+
+	margin-right: 133px;
+	border-radius: 100%;
+}
 
 
 
@@ -340,7 +345,7 @@ h4{
 #hcustomers2 {
 
 	color: white;
-	margin-top:82px;
+	margin-top:32px;
 	font-weight: bold;
 	font-family: Roboto-Regular;
 }
@@ -403,12 +408,6 @@ h4{
 	
 }
 
-
-
-.la {
-
-	border-radius: 0%;
-}
 
 h3 {
 
