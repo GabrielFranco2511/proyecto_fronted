@@ -298,7 +298,7 @@ h1
 {
 	margin-top: -22px;
 	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/pag2.jpg);
-	height: 120vh;
+	height: 92vh;
 	width:100%;
 	background-position: center;
 	background-size: cover;
@@ -342,7 +342,7 @@ h4{
 #hcustomers {
 
 	color: white;
-	margin-top: 32px;
+	margin-top: 22px;
 	font-weight: bold;
 	font-family: Roboto-Regular;
 }
@@ -390,7 +390,7 @@ h4{
 {
 	margin-top: -22px;
 	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/pag3.jpg);
-	height: 100vh;
+	height: 92.3vh;
 	width:100%;
 	background-position: center;
 	background-size: cover;
